@@ -5,8 +5,10 @@ moment.locale("zh-cn") //显示中国的时间格式
 
 module.exports = {
     title: "XUSir Blog",
+    base: ".",
     description: "记录，成为更好的自己。",
     dest: "dist",
+
     head: [
         ['meta', {name: "baidu_union_verify", content: "a0036ccf0b657813fb236f80f376c429"}],
         ["link", {rel: "icon", href: "/images/favicon.svg"}],

@@ -4,10 +4,10 @@
 set -e
 
 # 构建
-npm run build
+npm run docs:build
 
 # cd 到构建输出的目录下 
-cd dist
+cd docs/.vuepress/dist
 
 # 部署到自定义域域名
 # echo 'www.example.com' > CNAME
@@ -24,5 +24,5 @@ git commit -m 'deploy'
 
 # git push -f git@gitee.com:penggang-home/cloud-music.git master:gh-pages
 #git push -f  git@e.coding.net:heronode/blog/vuepress-blog.git master:deploy
-git push -f  git@github.com:xll2463/press_blog.git master:gh-pages master:deploy
+git push -f  git@github.com:xll2463/vuepress-blog.git master:gh-pages master:deploy
 cd -
