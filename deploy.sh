@@ -23,5 +23,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
 # git push -f git@gitee.com:penggang-home/cloud-music.git master:gh-pages
-git push -f  git@e.coding.net:heronode/blog/vuepress-blog.git master:deploy
+#git push -f  git@e.coding.net:heronode/blog/vuepress-blog.git master:deploy
+git push -f  ggit@github.com:xll2463/vuepress-blog.git master:gh-pages master:deploy
 cd -

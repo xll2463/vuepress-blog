@@ -50,13 +50,13 @@ module.exports = {
         // recordLink: "https://icp.chinaz.com/home/info?host=pengsir.top",
         smooth: "true", //平滑滚动
         // 评论设置
-        // valineConfig: {
-        //     appId: private.appId,
-        //     appKey: private.appKey,
-        //     recordIP: true,
-        //     placeholder: '填写邮箱地址可以及时收到回复噢...',
-        //     visitor: true,
-        // },
+        valineConfig: {
+            appId: private.appId,
+            appKey: private.appKey,
+            recordIP: true,
+            placeholder: '填写邮箱地址可以及时收到回复噢...',
+            visitor: true,
+        },
         lastUpdated: '最后更新于',
         friendLink: [
             {
